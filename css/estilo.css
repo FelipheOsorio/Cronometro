@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: red;
+}
+
+div {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 3em;
+    color: #f1f1f1;
+    padding-bottom: 50px;
+}
+
+p, span {
+    color: #f1f1f1;
+    font-size: 2em;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 30px 30px 0 30px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: #f1f1f1;
+    background-color: black;
+}
+
